@@ -1,5 +1,6 @@
 import 'package:coffee/firebase_options.dart';
-import 'package:coffee/screens/SplashScreen.dart';
+import 'package:coffee/screens/HomeScreen.dart';
+
 import 'package:coffee/screens/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         
       ],
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: HomeScreen(),
     );
   }
 }
